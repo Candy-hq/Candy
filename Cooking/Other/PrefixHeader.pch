@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  Cooking
+//
+//  Created by Candy on 15/11/3.
+//  Copyright © 2015年 汪汉琦. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+#import "UIView+Extension.h"
+#import "UIColor+AddColor.h"
+#import "UIImageView+WebCache.h"
+
+
+#define kViewX self.view.frame.origin.x
+#define kViewY self.view.frame.origin.y
+
+#define kFrameX self.frame.origin.x
+#define kFrameY self.frame.origin.y
+
+#define kFrameWidth self.bounds.size.width
+#define kFrameHeight self.bounds.size.height
+
+#define KScreenWidth [UIScreen mainScreen].bounds.size.width
+#define KScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define kViewWidth self.view.bounds.size.width
+#define kViewHeight self.view.bounds.size.height
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef DEBUG //处于开发阶段
+#define SBLog(...) NSLog(__VA_ARGS__)
+#else //处于发布阶段
+#define  SBLog(...)
+#endif
+
+
+#endif /* PrefixHeader_pch */
