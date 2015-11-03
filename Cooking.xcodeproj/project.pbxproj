@@ -942,7 +942,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/sjj/Desktop/foods/Cooking/Other/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Cooking/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = Cooking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.whq.Cooking;
@@ -955,7 +955,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/sjj/Desktop/foods/Cooking/Other/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Cooking/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = Cooking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lanou3g.whq.Cooking;
